@@ -1,0 +1,4 @@
+Created a container div that holds the slide div inside of it. The job of the upper container is to center the slide show. The slide show is responsible
+for managing the slide content inside of it. I multiple divs inside which hold each slide's content and they will be rendered conditionally using JavaScript.
+Javascript is used to control which slide to show by setting the display of all slides to none expect for the current slide index. Improvments can be
+made to the look and especially to the transtions of the slideshow.

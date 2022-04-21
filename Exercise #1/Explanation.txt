@@ -1,0 +1,4 @@
+I wanted to create a page layout that would separate different departments to different components. I did this by creating a container which holds card 
+container divs inside. These divs make use of a box shadow to make them stand out from the white background. The card components inside are rendered in a 
+row using flex box but change to column rendering on smaller devices. I used flex box but I could have also used CSS Grid and would have achived the same
+result. Imporvements on the website can be made by using a different background and possibly using better colors. 

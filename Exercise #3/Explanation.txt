@@ -1,0 +1,5 @@
+Created a header component that will hold the nav inside. The header centers the nav and the nav centers the elements inside of it using flex box.
+The dropdown menu was achived by creating a dropdown content div that contains the content to be displayed when the dropdown button is clicked.
+JavaScript conditionally displays the content when a user clicks the dropdown button and hides it when they click anywhere else on the site. 
+The navbar has an active feature where JavaScript assigns an active class to currently active tab. Improvements can be made by displaying a burger
+icon on smaller devices but the navbar fully renders and functions correctly with a device of any size.

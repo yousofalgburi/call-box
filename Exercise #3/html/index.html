@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Menu</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a id="home" href="#home" onclick="activeTab(home)">HOME</a></li>
+          <li>
+            <div class="dropdown">
+                <a id="inventory" href="#inventory" onclick="showDropDown(); activeTab(inventory)" class="dropdown_button">INVENTORY &#8595;</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#"">NEW</a>
+                    <a href="#"">USED</a>
+                    <a href="#"">CARS</a>
+                    <a href="#"">TRUCKS</a>
+                    <a href="#"">SUV'S</a>
+                </div>
+            </div>
+          </li>
+          <li><a id="aboutus" href="#aboutus" onclick="activeTab(aboutus)">ABOUT US</a></li>
+          <li><a id="contact" href="#contact" onclick="activeTab(contact)">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="../javascript/script.js"></script>
+  </body>
+</html>

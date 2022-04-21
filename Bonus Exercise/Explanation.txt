@@ -1,0 +1,4 @@
+The first solution that comes to mind when approaching this problem is using the Set data structure or the filter method in
+JavaScript. These are effective and most likely the solution to be used in most cases. In terms of doing this from scratch, we can create a 
+method that loops over the bigger of the 2 arrays and checks to see if the elements of these arrays match. This is a very fast solution
+with O(n) time complexity. 
